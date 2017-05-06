@@ -1,0 +1,12 @@
+{
+  "name": "dianshu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --files \"index.html\" \"css/**/*.css\" \"js/**/*.js\" \"assets/**/*.*\""
+  },
+  "author": "",
+  "license": "ISC"
+}
