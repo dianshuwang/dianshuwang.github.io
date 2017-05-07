@@ -1,3 +1,8 @@
+body{
+	font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+   	line-height: 1.62;
+}
+
 header{
 	height: 50px;
 	background-color: white;
@@ -6,4 +11,5 @@ header{
 	left: 0;
 	width: 100%;
 	padding: 0 16px;
+	border-top: 2px solid #27ae60;
 }
