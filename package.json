@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "browser-sync start --server --files \"index.html\" \"css/**/*.css\" \"js/**/*.js\" \"assets/**/*.*\""
+    "serve": "browser-sync start --server --files \"index.html\" \"css/**/*.css\" \"js/**/*.js\" \"views/**/*.html\" \"assets/**/*.*\""
   },
   "author": "",
   "license": "ISC"
