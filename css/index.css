@@ -1,5 +1,10 @@
 body{
-	font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/** IE: 63%
+	*  浏览器默认字体大小16px 
+	*  设置62.5%后 10px=1em  12px=1.2em  16px=1.6em 像素除10得em大小
+	*/
+	font-size:62.5%;
    	line-height: 1.62;
 }
 @font-face {
@@ -16,10 +21,15 @@ header{
 	left: 0;
 	width: 100%;
 	padding: 0 16px;
-	border-top: 2px solid #27ae60;
+	border-top: 3px solid #27ae60;
 }
 header .slogen{
 	margin-left: 16px;
+	color: #555;
+	font-size: 1em;
+}
+header i{
+	color: #27ae60;
 }
 .home{
 	padding-top: 50px;
