@@ -34,3 +34,23 @@ header i{
 .home{
 	padding-top: 50px;
 }
+.book-thumb{
+	width: 100px;
+	height: 120px;
+}
+.card-content{
+	padding-left: 8px;
+}
+.card-content__title{
+	font-size: 1.4em;
+	line-height: 1.2;
+	font-weight: 500;
+}
+.card-content__author{
+	font-size: 1.2em;
+	padding: 4px 0;
+}
+.card-content__desc{
+	font-size: 1.3em;
+	color: #555;
+}
